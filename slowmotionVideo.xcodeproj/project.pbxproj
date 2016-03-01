@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437AF33D1C1A30560064323F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 437AF33C1C1A30560064323F /* main.m */; };
+		437AF3401C1A30560064323F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437AF33F1C1A30560064323F /* AppDelegate.m */; };
+		437AF3431C1A30560064323F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437AF3421C1A30560064323F /* ViewController.m */; };
+		437AF3461C1A30560064323F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437AF3441C1A30560064323F /* Main.storyboard */; };
+		437AF3481C1A30560064323F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437AF3471C1A30560064323F /* Assets.xcassets */; };
+		437AF34B1C1A30560064323F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437AF3491C1A30560064323F /* LaunchScreen.storyboard */; };
+		437AF3561C1A30560064323F /* slowmotionVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437AF3551C1A30560064323F /* slowmotionVideoTests.m */; };
+		437AF3611C1A30560064323F /* slowmotionVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437AF3601C1A30560064323F /* slowmotionVideoUITests.m */; };
+		437AF3731C1B35ED0064323F /* UIPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 437AF3721C1B35ED0064323F /* UIPreviewView.m */; };
+		43ACD7ED1C21F0570078A39A /* UIPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ACD7EC1C21F0570078A39A /* UIPlayerView.m */; };
+		43ACD7F01C21FA100078A39A /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ACD7EF1C21FA100078A39A /* VideoPlayerViewController.m */; };
+		43BCFBFF1C1F6BA10062B9FC /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BCFBFE1C1F6BA10062B9FC /* CollectionViewCell.m */; };
+		43BCFC021C1F73970062B9FC /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BCFC011C1F73970062B9FC /* VideoViewController.m */; };
+		43BCFC071C2072940062B9FC /* RecordedVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BCFC061C2072940062B9FC /* RecordedVideo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		437AF3521C1A30560064323F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437AF3301C1A30560064323F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437AF3371C1A30560064323F;
+			remoteInfo = slowmotionVideo;
+		};
+		437AF35D1C1A30560064323F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437AF3301C1A30560064323F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437AF3371C1A30560064323F;
+			remoteInfo = slowmotionVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		437AF3381C1A30560064323F /* slowmotionVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slowmotionVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		437AF33C1C1A30560064323F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		437AF33E1C1A30560064323F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		437AF33F1C1A30560064323F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		437AF3411C1A30560064323F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = slowmotionVideo/ViewController.h; sourceTree = "<group>"; };
+		437AF3421C1A30560064323F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = slowmotionVideo/ViewController.m; sourceTree = "<group>"; };
+		437AF3451C1A30560064323F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		437AF3471C1A30560064323F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		437AF34A1C1A30560064323F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		437AF34C1C1A30560064323F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437AF3511C1A30560064323F /* slowmotionVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slowmotionVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		437AF3551C1A30560064323F /* slowmotionVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slowmotionVideoTests.m; sourceTree = "<group>"; };
+		437AF3571C1A30560064323F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437AF35C1C1A30560064323F /* slowmotionVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slowmotionVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		437AF3601C1A30560064323F /* slowmotionVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slowmotionVideoUITests.m; sourceTree = "<group>"; };
+		437AF3621C1A30560064323F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437AF3711C1B35ED0064323F /* UIPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPreviewView.h; sourceTree = "<group>"; };
+		437AF3721C1B35ED0064323F /* UIPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPreviewView.m; sourceTree = "<group>"; };
+		43ACD7EB1C21F0570078A39A /* UIPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlayerView.h; sourceTree = "<group>"; };
+		43ACD7EC1C21F0570078A39A /* UIPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlayerView.m; sourceTree = "<group>"; };
+		43ACD7EE1C21FA100078A39A /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		43ACD7EF1C21FA100078A39A /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
+		43BCFBFD1C1F6BA10062B9FC /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		43BCFBFE1C1F6BA10062B9FC /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		43BCFC001C1F73970062B9FC /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		43BCFC011C1F73970062B9FC /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		43BCFC051C2072940062B9FC /* RecordedVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordedVideo.h; sourceTree = "<group>"; };
+		43BCFC061C2072940062B9FC /* RecordedVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordedVideo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437AF3351C1A30560064323F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437AF34E1C1A30560064323F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437AF3591C1A30560064323F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437AF32F1C1A30560064323F = {
+			isa = PBXGroup;
+			children = (
+				437AF36F1C1B35BD0064323F /* view */,
+				437AF36E1C1B35BB0064323F /* controller */,
+				437AF3701C1B35BF0064323F /* model */,
+				437AF33A1C1A30560064323F /* slowmotionVideo */,
+				437AF3541C1A30560064323F /* slowmotionVideoTests */,
+				437AF35F1C1A30560064323F /* slowmotionVideoUITests */,
+				437AF3391C1A30560064323F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437AF3391C1A30560064323F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437AF3381C1A30560064323F /* slowmotionVideo.app */,
+				437AF3511C1A30560064323F /* slowmotionVideoTests.xctest */,
+				437AF35C1C1A30560064323F /* slowmotionVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437AF33A1C1A30560064323F /* slowmotionVideo */ = {
+			isa = PBXGroup;
+			children = (
+				437AF33E1C1A30560064323F /* AppDelegate.h */,
+				437AF33F1C1A30560064323F /* AppDelegate.m */,
+				437AF3471C1A30560064323F /* Assets.xcassets */,
+				437AF3491C1A30560064323F /* LaunchScreen.storyboard */,
+				437AF34C1C1A30560064323F /* Info.plist */,
+				437AF33B1C1A30560064323F /* Supporting Files */,
+			);
+			path = slowmotionVideo;
+			sourceTree = "<group>";
+		};
+		437AF33B1C1A30560064323F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				437AF33C1C1A30560064323F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		437AF3541C1A30560064323F /* slowmotionVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				437AF3551C1A30560064323F /* slowmotionVideoTests.m */,
+				437AF3571C1A30560064323F /* Info.plist */,
+			);
+			path = slowmotionVideoTests;
+			sourceTree = "<group>";
+		};
+		437AF35F1C1A30560064323F /* slowmotionVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				437AF3601C1A30560064323F /* slowmotionVideoUITests.m */,
+				437AF3621C1A30560064323F /* Info.plist */,
+			);
+			path = slowmotionVideoUITests;
+			sourceTree = "<group>";
+		};
+		437AF36E1C1B35BB0064323F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				437AF3411C1A30560064323F /* ViewController.h */,
+				437AF3421C1A30560064323F /* ViewController.m */,
+				43BCFC001C1F73970062B9FC /* VideoViewController.h */,
+				43BCFC011C1F73970062B9FC /* VideoViewController.m */,
+				43BCFBFD1C1F6BA10062B9FC /* CollectionViewCell.h */,
+				43BCFBFE1C1F6BA10062B9FC /* CollectionViewCell.m */,
+				43ACD7EE1C21FA100078A39A /* VideoPlayerViewController.h */,
+				43ACD7EF1C21FA100078A39A /* VideoPlayerViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		437AF36F1C1B35BD0064323F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				437AF3441C1A30560064323F /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		437AF3701C1B35BF0064323F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				437AF3711C1B35ED0064323F /* UIPreviewView.h */,
+				437AF3721C1B35ED0064323F /* UIPreviewView.m */,
+				43ACD7EB1C21F0570078A39A /* UIPlayerView.h */,
+				43ACD7EC1C21F0570078A39A /* UIPlayerView.m */,
+				43BCFC051C2072940062B9FC /* RecordedVideo.h */,
+				43BCFC061C2072940062B9FC /* RecordedVideo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437AF3371C1A30560064323F /* slowmotionVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437AF3651C1A30560064323F /* Build configuration list for PBXNativeTarget "slowmotionVideo" */;
+			buildPhases = (
+				437AF3341C1A30560064323F /* Sources */,
+				437AF3351C1A30560064323F /* Frameworks */,
+				437AF3361C1A30560064323F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = slowmotionVideo;
+			productName = slowmotionVideo;
+			productReference = 437AF3381C1A30560064323F /* slowmotionVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		437AF3501C1A30560064323F /* slowmotionVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437AF3681C1A30560064323F /* Build configuration list for PBXNativeTarget "slowmotionVideoTests" */;
+			buildPhases = (
+				437AF34D1C1A30560064323F /* Sources */,
+				437AF34E1C1A30560064323F /* Frameworks */,
+				437AF34F1C1A30560064323F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437AF3531C1A30560064323F /* PBXTargetDependency */,
+			);
+			name = slowmotionVideoTests;
+			productName = slowmotionVideoTests;
+			productReference = 437AF3511C1A30560064323F /* slowmotionVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		437AF35B1C1A30560064323F /* slowmotionVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437AF36B1C1A30560064323F /* Build configuration list for PBXNativeTarget "slowmotionVideoUITests" */;
+			buildPhases = (
+				437AF3581C1A30560064323F /* Sources */,
+				437AF3591C1A30560064323F /* Frameworks */,
+				437AF35A1C1A30560064323F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437AF35E1C1A30560064323F /* PBXTargetDependency */,
+			);
+			name = slowmotionVideoUITests;
+			productName = slowmotionVideoUITests;
+			productReference = 437AF35C1C1A30560064323F /* slowmotionVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437AF3301C1A30560064323F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Robert Baghai";
+				TargetAttributes = {
+					437AF3371C1A30560064323F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PU9PMM99H2;
+					};
+					437AF3501C1A30560064323F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PU9PMM99H2;
+						TestTargetID = 437AF3371C1A30560064323F;
+					};
+					437AF35B1C1A30560064323F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PU9PMM99H2;
+						TestTargetID = 437AF3371C1A30560064323F;
+					};
+				};
+			};
+			buildConfigurationList = 437AF3331C1A30560064323F /* Build configuration list for PBXProject "slowmotionVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 437AF32F1C1A30560064323F;
+			productRefGroup = 437AF3391C1A30560064323F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437AF3371C1A30560064323F /* slowmotionVideo */,
+				437AF3501C1A30560064323F /* slowmotionVideoTests */,
+				437AF35B1C1A30560064323F /* slowmotionVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437AF3361C1A30560064323F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437AF34B1C1A30560064323F /* LaunchScreen.storyboard in Resources */,
+				437AF3481C1A30560064323F /* Assets.xcassets in Resources */,
+				437AF3461C1A30560064323F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437AF34F1C1A30560064323F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437AF35A1C1A30560064323F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437AF3341C1A30560064323F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BCFC071C2072940062B9FC /* RecordedVideo.m in Sources */,
+				43BCFBFF1C1F6BA10062B9FC /* CollectionViewCell.m in Sources */,
+				437AF3431C1A30560064323F /* ViewController.m in Sources */,
+				437AF3731C1B35ED0064323F /* UIPreviewView.m in Sources */,
+				43BCFC021C1F73970062B9FC /* VideoViewController.m in Sources */,
+				437AF3401C1A30560064323F /* AppDelegate.m in Sources */,
+				43ACD7F01C21FA100078A39A /* VideoPlayerViewController.m in Sources */,
+				437AF33D1C1A30560064323F /* main.m in Sources */,
+				43ACD7ED1C21F0570078A39A /* UIPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437AF34D1C1A30560064323F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437AF3561C1A30560064323F /* slowmotionVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437AF3581C1A30560064323F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437AF3611C1A30560064323F /* slowmotionVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437AF3531C1A30560064323F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437AF3371C1A30560064323F /* slowmotionVideo */;
+			targetProxy = 437AF3521C1A30560064323F /* PBXContainerItemProxy */;
+		};
+		437AF35E1C1A30560064323F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437AF3371C1A30560064323F /* slowmotionVideo */;
+			targetProxy = 437AF35D1C1A30560064323F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		437AF3441C1A30560064323F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437AF3451C1A30560064323F /* Base */,
+			);
+			name = Main.storyboard;
+			path = slowmotionVideo;
+			sourceTree = "<group>";
+		};
+		437AF3491C1A30560064323F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437AF34A1C1A30560064323F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		437AF3631C1A30560064323F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		437AF3641C1A30560064323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437AF3661C1A30560064323F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = slowmotionVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turntotech.slowmotionVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		437AF3671C1A30560064323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = slowmotionVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turntotech.slowmotionVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		437AF3691C1A30560064323F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = slowmotionVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turntotech.slowmotionVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slowmotionVideo.app/slowmotionVideo";
+			};
+			name = Debug;
+		};
+		437AF36A1C1A30560064323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = slowmotionVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turntotech.slowmotionVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slowmotionVideo.app/slowmotionVideo";
+			};
+			name = Release;
+		};
+		437AF36C1C1A30560064323F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = slowmotionVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turntotech.slowmotionVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = slowmotionVideo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		437AF36D1C1A30560064323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = slowmotionVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turntotech.slowmotionVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = slowmotionVideo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437AF3331C1A30560064323F /* Build configuration list for PBXProject "slowmotionVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437AF3631C1A30560064323F /* Debug */,
+				437AF3641C1A30560064323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437AF3651C1A30560064323F /* Build configuration list for PBXNativeTarget "slowmotionVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437AF3661C1A30560064323F /* Debug */,
+				437AF3671C1A30560064323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437AF3681C1A30560064323F /* Build configuration list for PBXNativeTarget "slowmotionVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437AF3691C1A30560064323F /* Debug */,
+				437AF36A1C1A30560064323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437AF36B1C1A30560064323F /* Build configuration list for PBXNativeTarget "slowmotionVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437AF36C1C1A30560064323F /* Debug */,
+				437AF36D1C1A30560064323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437AF3301C1A30560064323F /* Project object */;
+}
